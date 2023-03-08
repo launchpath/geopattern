@@ -1,5 +1,7 @@
 # GeoPattern
 
+## This is a fork of a long-unmaintained library
+
 This is a JavaScript port of [jasonlong/geo_pattern](https://github.com/jasonlong/geo_pattern) with a [live preview page](http://btmills.github.io/geopattern/geopattern.html) and is derived from the background generator originally used for [GitHub Guides](http://guides.github.com/).
 
 ## Usage
@@ -37,8 +39,8 @@ npm install geopattern
 After requiring `geopattern`, the API is identical to the browser version, minus the jQuery plugin.
 
 ```js
-var GeoPattern = require('geopattern');
-var pattern = GeoPattern.generate('GitHub');
+var GeoPattern = require("geopattern");
+var pattern = GeoPattern.generate("GitHub");
 pattern.toDataUrl(); // url("data:image/svg+xml;...
 ```
 
@@ -61,7 +63,7 @@ Returns a newly-generated, tiling SVG Pattern.
 Gets the pattern's background color as a hexadecimal string.
 
 ```js
-GeoPattern.generate('GitHub').color // => "#455e8a"
+GeoPattern.generate("GitHub").color; // => "#455e8a"
 ```
 
 #### Pattern.toString() and Pattern.toSvg()
