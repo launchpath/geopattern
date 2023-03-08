@@ -1,5 +1,5 @@
 {
-  "name": "@launchpath/geopattern",
+  "name": "geopattern",
   "version": "1.2.3",
   "description": "Fork of the unmaintained library",
   "keywords": [
